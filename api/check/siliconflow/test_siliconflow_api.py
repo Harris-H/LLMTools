@@ -85,7 +85,7 @@ def main():
         result = get_account_info(key)
         results.append(result)
         # 添加短暂延迟避免API限制
-        time.sleep(0.5)
+        time.sleep(0.1)
 
     # 按照剩余额度从大到小排序
     sorted_results = sorted(

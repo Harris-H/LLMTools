@@ -1,0 +1,10 @@
+[project]
+name = "llmtools"
+version = "0.1.0"
+description = "LLMTools is a collection of utility tools designed for working with Large Language Model (LLM) services"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32.3",
+    "tqdm>=4.67.1",
+]
