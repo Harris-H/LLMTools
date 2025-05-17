@@ -47,6 +47,8 @@ uv sync
 
 # Run the SiliconFlow API key checker
 python api/check/siliconflow/test_siliconflow_api.py -f path/to/your/api_keys.txt
+# Or use uv run the py
+uv run api/check/siliconflow/test_siliconflow_api.py -f path/to/your/api_keys.txt
 ```
 
 ## Future Plans
