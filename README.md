@@ -32,6 +32,23 @@ LLMTools/
 ## Installation
 Each tool has its own installation requirements. Please refer to the specific tool's documentation for details.
 
+### Using uv
+
+```bash
+# Clone the repository
+git clone https://github.com/Harris-H/LLMTools.git
+cd LLMTools
+
+# Install uv if not installed
+pip install uv
+
+# Create virtual environment and install dependencies in one step
+uv sync
+
+# Run the SiliconFlow API key checker
+python api/check/siliconflow/test_siliconflow_api.py -f path/to/your/api_keys.txt
+```
+
 ## Future Plans
 This project aims to expand with more tools for working with various LLM providers and APIs. The modular structure allows for easy addition of new utilities as they are developed.
 
